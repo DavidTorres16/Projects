@@ -5,5 +5,6 @@ There´s 2 things you must know about the program
 3. -pyautogui
 4. -pyperclip
 5. the command to download this library must be used in the CMD using the following command: pip install (library you want to download)
+6. the project will be adapted to a 1080 screen resolution
 
-WORK IN PROGRESS
+WORK IN PROGRESS 
