@@ -7,5 +7,6 @@ There´s some things you must know about the program
 5. -pyperclip
 6. the command to download this library must be used in the CMD using the following command: pip install (library you want to download)
 7. the project will be adapted to a 1080 screen resolution
+8. version 3 is being optimized for 1080p screen resolution
 
 WORK IN PROGRESS 
