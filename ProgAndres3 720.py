@@ -59,10 +59,13 @@ for i in range (12):
 time.sleep(4)
 paginas=int(input("How many pages did the search generate: ")) #Cantidad de páginas que genera la búsqueda
 time.sleep(3)
-y=324
 
 for i in range(0,paginas):
-    for x in range (0,6):
+    y=324
+    for x in range (0,20):
+        if x == 16:
+            for i in range (12):
+                pyautogui.click(1329,694)
         pyautogui.moveTo(362,y,duration=0.25) #Me desplazo a cada uno de los elementos de la lista encontrados
         time.sleep(1)
         pyautogui.click(362,y) #Click en cada uno de los elementos de la lista encontrados
