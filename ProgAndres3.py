@@ -56,9 +56,10 @@ pyautogui.click(54,694) #Click en el botón: SEARCH
 time.sleep(3) #Esperamos a que cargue la pestaña
 paginas=int(input("How many pages did the search generate: ")) #Cantidad de páginas que genera la búsqueda
 time.sleep(3)
-y=538
+
 
 for i in range(0,paginas):
+    y=538
     for i in range (12):
         pyautogui.click(1884,1003) 
         #Voy a la barra de desplazamiento vertical, parte inferior y bajo 12 veces''' 
